@@ -30,7 +30,10 @@ abstract class Automovel implements Veiculo {
 
 class Opel extends Automovel {
 
-
+    public function teste()
+    {
+        echo "teste";
+    }
 
 }
 
