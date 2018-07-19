@@ -1,6 +1,6 @@
 <?php
 
-$conn = new PDO("mysql:host=localhost;dbname=dbphp7", "root", "wooten");
+$conn = new PDO("mysql:host=localhost;dbname=dbphp7", "root", "root");
 
 $stmt = $conn->prepare("INSERT INTO tb_usuarios (deslogin, dessenha) VALUES (:login, :password)");
 
